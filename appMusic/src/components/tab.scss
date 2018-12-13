@@ -1,0 +1,20 @@
+@import '../../node_modules/antd-mobile/dist/antd-mobile.css';
+
+:global{
+    .am-wingblank{
+        height: 180px;
+        padding: 10px;
+        box-sizing: border-box;
+       .slider-slide{
+           img{
+              height: 160px;
+           }
+            
+        }
+    }
+  
+}
+
+//  am-wingblank-lg"
+
+

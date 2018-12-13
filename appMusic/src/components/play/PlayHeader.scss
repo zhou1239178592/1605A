@@ -1,0 +1,20 @@
+.picUrl{
+  width: 50%;
+  border-radius: 50%;
+  animation: rotate 10s linear infinite;
+}
+.disable{
+  composes: picUrl;
+  animation-play-state: paused;
+}
+.slider-slide > img {
+  width: 50%;
+}
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}

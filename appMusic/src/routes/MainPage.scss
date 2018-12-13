@@ -1,0 +1,115 @@
+:global{
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    #root{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .header{
+            width: 100%;
+            height: 45px;
+            background: #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+            box-sizing: border-box;
+            p{
+                width: 70%;
+                background: #ccc;
+                line-height: 40px;
+                text-align: center;
+                border-radius:20px;
+                color: #000;
+            }
+            span:first-child{
+                width: 10%;
+                height: 40px;
+                display: inline-block;
+                background: url("../../public/img/ting.png") no-repeat 0 0/100%;
+            }
+            span:last-child{
+                flex-shrink: 1;
+                width: 10%;
+                height: 40px;
+                padding-left: 5px;
+                box-sizing: border-box;
+                display: inline-block;
+                background: url("../../public/img/yin.png") no-repeat 0 0/100%;
+            }
+        }
+        .conner{
+            width: 100%;
+            flex:1;
+            overflow: auto;
+            overflow-x: hidden;
+        }
+        .footer{
+            width:100%;
+            height: 45px;
+            background: #ccc;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;
+            left:0;
+            bottom:0;
+            a:first-child p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/wangyiyunyinle.png") no-repeat 0 0/100%;
+            }
+            a:nth-child(2) p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/shipin.png") no-repeat 0 0/100%;
+            }
+            a:nth-child(3) p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/yinyue.png") no-repeat 0 0/100%;
+            }
+            a:nth-child(4) p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/pengyou.png") no-repeat 0 0/100%;
+            }
+            a:last-child p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/my.png") no-repeat 0 0/100%;
+            }
+            a.active:first-child p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/wangyiyunyin_active.png") no-repeat 0 0/100%;
+            }
+            a.active:nth-child(2) p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/shipin_active.png") no-repeat 0 0/100%;
+            }
+            a.active:nth-child(3) p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/yinyueactive.png") no-repeat 0 0/100%;
+            }
+            a.active:nth-child(4) p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/pengyou_active.png") no-repeat 0 0/100%;
+            }
+            a.active:last-child p{
+                width: 25px;
+                height: 25px;
+                background: url("../../public/img/my_active.png") no-repeat 0 0/100%;
+            }
+        }
+    }
+    
+}
